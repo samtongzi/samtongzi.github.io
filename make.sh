@@ -1,8 +1,5 @@
 #!/bin/bash
-dpkg-scanpackages -m . /dev/null > Packages
-rm Packages.bz2
-bzip2 Packages
-
-git add --all
-git commit -m "add debs"
-git push origin master
+set -euo pipefail
+cd "$(dirname "$0")"
+python3 scripts/build_repo.py
+printf '\n索引已更新。请检查 git diff，再手动提交和推送；本脚本不会自动发布。\n'

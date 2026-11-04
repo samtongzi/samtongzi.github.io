@@ -1,0 +1,116 @@
+Package: com.ryleyangus.libertylite.beta
+Name: Liberty Lite (Beta)
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Architecture: iphoneos-arm
+Description: A general purpose jailbreak detection bypass patch. Configure the Liberty Lite entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not currently supported. Support for both arm64e and armv7 has been enabled in this beta version.
+Maintainer: Ryley Angus
+Author: Ryley Angus
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Version: 0.2.12
+Installed-Size: 616
+Filename: ./com.ryleyangus.libertylite.beta_0.2.12_iphoneos-arm.deb
+Size: 42210
+MD5sum: 37298170685afadc9b2bf7f636dafba7
+SHA1: f2a120261d0d0ee6ace2deb7508e567cbc76d362
+SHA256: 990c49c7af5807e031d7fa4632e56eb6f5222a1c29002187f88d4de33da684a7
+
+Package: kr.xsf1re.flyjbx
+Name: FlyJB X
+Depends: mobilesubstrate
+Conflicts: kr.xsf1re.flyjb
+Architecture: iphoneos-arm
+Description: You can HIDE Doing jailbreak your iDevice.
+Maintainer: XsF1re
+Author: XsF1re
+Section: Tweaks
+Version: 1.2.5
+Installed-Size: 1580
+Filename: ./kr.xsf1re.flyjbx_1.2.5_iphoneos-arm.deb
+Size: 649864
+MD5sum: 5e955e26724e79ff8ca45032679f9cd9
+SHA1: 7fb5d1a3982b471a2af9e47e904d4d0519df3a16
+SHA256: 96491acad71a3696950acf68b06075c04a8e3753164221f7e8f16fe7ca528419
+
+Package: me.jjolano.shadow
+Section: Tweaks
+Maintainer: jjolano <jjolano@me.com>
+Architecture: iphoneos-arm
+Version: 2.0.20
+Depends: firmware (>= 8.0), mobilesubstrate, ws.hbang.common, applist, preferenceloader
+Description: A lightweight general jailbreak detection bypass.
+Name: Shadow
+Depiction: https://ios.jjolano.me/depiction/web/me.jjolano.shadow.html
+SileoDepiction: https://ios.jjolano.me/depiction/native/me.jjolano.shadow.json
+ModernDepiction: https://ios.jjolano.me/depiction/native/me.jjolano.shadow.json
+Icon: https://ios.jjolano.me/assets/me.jjolano.shadow/icon.png
+Homepage: https://shuga.co/
+Author: jjolano <jjolano@me.com>
+Filename: ./me.jjolano.shadow_2.0.20_iphoneos-arm.deb
+Size: 250098
+MD5sum: 3e2216453ae13d69ffa099d4598bce21
+SHA1: e1cba8cc2f23efe3924c2dba18b1191cc59d2d95
+SHA256: e6d0d7af4679880e1baea5038531f4de9856fef508b82ca4457f6a86b8442e57
+
+Package: samtongzi.nzsg64
+Name: 逆转三国 64位
+Version: 6.95-1
+Architecture: iphoneos-arm
+Section: System
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, unzip, com.rpetrich.rocketbootstrap (>=1.0.3)
+Priority: optional
+Author: 三木
+Depiction: 逆转三国 64位修改
+Filename: ./nzsg64_6.95_release.deb
+Size: 85260
+MD5sum: 1a6e9d37e3319e316d42978e2899d826
+SHA1: c199814839d242ab363047396a7bc4d0f330dbb7
+SHA256: 8f08edd038f0e11aa93d49c372713a7deb82d13f9f622dc2dda05bc948bc8ca4
+
+Package: samtongzi.padjp
+Name: 智龙迷城 日服
+Version: 23.5.2
+Architecture: iphoneos-arm64
+Description: MuTweak for 智龙迷城 日服. Features: 秒杀 / 无敌 / 无限技能
+Maintainer: 三木
+Author: 三木
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./padjp_23.5.2_iphoneos-arm64.deb
+Size: 13642
+MD5sum: 2a794bb79aecfde981691aa9f5905b9f
+SHA1: 6f2df0f72ce9822c99897ec72130ab667cc08c68
+SHA256: b4c373db551414bf76ffff2b431361be24c0b51e46931688ce52e5dc35ed8031
+
+Package: samtongzi.nzsgrootless
+Name: 逆轉三國 Rootless
+Version: 6.95-2
+Architecture: iphoneos-arm64
+Description: MuTweak for 逆轉三國 Rootless. Features: 秒杀 / 全屏攻击 / 无限技能 / 无敌
+Maintainer: 三木
+Author: 三木
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./samtongzi.nzsgrootless_6.95-2_iphoneos-arm64.deb
+Size: 17600
+MD5sum: 431b06973c62e65215668bf3a420c679
+SHA1: 8e738a139e37b78c27946eeffed36ecb14c4d7ab
+SHA256: 92f2726d6762d408dfc9c6d95f5bf9a5cad616d195e7eab74c6f41510c6260ac
+
+Package: samtongzi.xcon
+Name: xCon
+Version: 42-beta4
+Depends: mobilesubstrate
+Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
+Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
+Architecture: iphoneos-arm
+Author: Lunatik
+Description: 防止越狱检测
+Maintainer: samtongzi <apt.so/samtongzi>
+Filename: ./xcon-42-beta4.deb
+Size: 137848
+MD5sum: 6acbbb98afd7e7dea6ce1fbf5b7560cf
+SHA1: 75991f2fd76a56ccf7803d95830ed20f38e41b29
+SHA256: 3be62813f5ecf45295e5eb2d10d7c93fdfa2cb2bd297cf63352d91b8859e5b09
+

@@ -3,6 +3,14 @@ Label: 阿木小馆
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: Sam's private repo
+MD5Sum:
+ 8638aaf00b453f0313c0e3e06cf9875c 4341 Packages
+ 362f17df1cf1e4e627d834ba2c75d47c 1957 Packages.gz
+ 07e07462d2c224aadd560a7b6fad3098 2107 Packages.bz2
+SHA256:
+ c97dc4457b58d2ab314812ddee3ad44ee3c0eac62788889592bb826b6e3702db 4341 Packages
+ 11ec4bb3d14dba1274f7eb4a3f0ae139e4835b4012178ffd403989f8558c8fc4 1957 Packages.gz
+ a0c07db63a1589eadb1bbbac7b5df85c8e593f818062b573b1d62b62f306d262 2107 Packages.bz2
