@@ -68,35 +68,53 @@ MD5sum: 1a6e9d37e3319e316d42978e2899d826
 SHA1: c199814839d242ab363047396a7bc4d0f330dbb7
 SHA256: 8f08edd038f0e11aa93d49c372713a7deb82d13f9f622dc2dda05bc948bc8ca4
 
-Package: samtongzi.padjp
-Name: 智龙迷城 日服
-Version: 23.5.2
+Package: samtongzi.nzsg
+Name: 逆转三国
+Version: 6.95-3
 Architecture: iphoneos-arm64
-Description: MuTweak for 智龙迷城 日服. Features: 秒杀 / 无敌 / 无限技能
-Maintainer: 三木
-Author: 三木
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./padjp_23.5.2_iphoneos-arm64.deb
-Size: 13642
-MD5sum: 2a794bb79aecfde981691aa9f5905b9f
-SHA1: 6f2df0f72ce9822c99897ec72130ab667cc08c68
-SHA256: b4c373db551414bf76ffff2b431361be24c0b51e46931688ce52e5dc35ed8031
-
-Package: samtongzi.nzsgrootless
-Name: 逆轉三國 Rootless
-Version: 6.95-2
-Architecture: iphoneos-arm64
-Description: MuTweak for 逆轉三國 Rootless. Features: 秒杀 / 全屏攻击 / 无限技能 / 无敌
+Description: 阿木辅助 for 逆转三国 Rootless.Features:秒杀 / 全屏攻击 / 无限技能 / 无敌
 Maintainer: 三木
 Author: 三木
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./samtongzi.nzsgrootless_6.95-2_iphoneos-arm64.deb
-Size: 17600
-MD5sum: 431b06973c62e65215668bf3a420c679
-SHA1: 8e738a139e37b78c27946eeffed36ecb14c4d7ab
-SHA256: 92f2726d6762d408dfc9c6d95f5bf9a5cad616d195e7eab74c6f41510c6260ac
+Conflicts: samtongzi.nzsgrootless
+Replaces: samtongzi.nzsgrootless
+Filename: ./nzsg_6.95-3_iphoneos-arm64.deb
+Size: 17670
+MD5sum: 19be2ff364b842ad6d39469f58b9fbd4
+SHA1: 556319f26ccd3ea6bcf421b092a96d2a2ff4bc69
+SHA256: 5282cfe46779a7cb23ba42f0d3f57174e1f4461a3234a4892f12a3ff86eae9df
+
+Package: samtongzi.padjp
+Name: 智龙迷城 日服
+Version: 23.6.0
+Architecture: iphoneos-arm64
+Description: 阿木辅助 for 智龙迷城 日服 Rootless.Features:秒杀 / 无敌 / 无限技能
+Maintainer: 三木
+Author: 三木
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./padjp_23.6.0_iphoneos-arm64.deb
+Size: 13674
+MD5sum: 67378d062527e0d156e03aefa00d40ee
+SHA1: db9cef37a874ec09447e01fd505fa884c0921ef6
+SHA256: fbadc37f2f335d2f0647800fd706ddb1532dffd36c8141a76f47bf0dc9d6bca7
+
+Package: samtongzi.smzt
+Name: 神魔之塔
+Version: 2026.600-1
+Architecture: iphoneos-arm64
+Maintainer: 三木
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: 阿木辅助 for 神魔之塔 Rootless.Features:无敌 / 无限技能 / 秒杀 / 敌人回合不减 / 禁用敌人技能
+Conflicts: samtongzi.mutweak.towerofsaviors
+Replaces: samtongzi.mutweak.towerofsaviors
+Filename: ./smzt_2026.600-1_iphoneos-arm64.deb
+Size: 16936
+MD5sum: df16579b468d028422b617d57b255cc3
+SHA1: 0c4b89c77ea515e665f8943150097b2235b9258d
+SHA256: 7ae2a1ad61ff37c1789fef093e1f45d96930483495b40bad016d62f501199c7b
 
 Package: samtongzi.xcon
 Name: xCon
