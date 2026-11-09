@@ -87,18 +87,18 @@ SHA256: 5282cfe46779a7cb23ba42f0d3f57174e1f4461a3234a4892f12a3ff86eae9df
 
 Package: samtongzi.padjp
 Name: 智龙迷城 日服
-Version: 23.6.0
+Version: 23.6.1
 Architecture: iphoneos-arm64
 Description: 阿木辅助 for 智龙迷城 日服 Rootless.Features:秒杀 / 无敌 / 无限技能
 Maintainer: 三木
 Author: 三木
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./padjp_23.6.0_iphoneos-arm64.deb
-Size: 13674
-MD5sum: 67378d062527e0d156e03aefa00d40ee
-SHA1: db9cef37a874ec09447e01fd505fa884c0921ef6
-SHA256: fbadc37f2f335d2f0647800fd706ddb1532dffd36c8141a76f47bf0dc9d6bca7
+Filename: ./padjp_23.6.1_iphoneos-arm64.deb
+Size: 13672
+MD5sum: 4b3179dd9f88c64d0d6fc059d5c0eea7
+SHA1: 9ea7a91c43d6156c0a552aaca4c1cc6ffc7140d4
+SHA256: 6086dfd93cb82f548fefc8ff4b2324ee9fc250e579207ad49480f800a041ac8e
 
 Package: samtongzi.smzt
 Name: 神魔之塔
