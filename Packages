@@ -102,7 +102,7 @@ SHA256: 6086dfd93cb82f548fefc8ff4b2324ee9fc250e579207ad49480f800a041ac8e
 
 Package: samtongzi.smzt
 Name: 神魔之塔
-Version: 2026.610-1
+Version: 2026.611-1
 Architecture: iphoneos-arm64
 Maintainer: 三木
 Section: Tweaks
@@ -110,11 +110,11 @@ Depends: firmware (>= 15.0), mobilesubstrate
 Description: 阿木辅助 for 神魔之塔 Rootless.Features:无敌 / 无限技能 / 秒杀 / 敌人回合不减 / 禁用敌人技能
 Conflicts: samtongzi.mutweak.towerofsaviors
 Replaces: samtongzi.mutweak.towerofsaviors
-Filename: ./smzt_2026.610-1_iphoneos-arm64.deb
+Filename: ./smzt_2026.611-1_iphoneos-arm64.deb
 Size: 16884
-MD5sum: a4e8a313936b6019aabe5d58e4d79e8a
-SHA1: e2c0331c7de7c6211cdd139ecd2364cfff49a86a
-SHA256: 03de22b3f11af1b978c7534b9fa7afc6e1e2ce97b8f22f3c17aa01a53c1ab87b
+MD5sum: ee40ca805e329565f5771c7f5b314a3f
+SHA1: f8b03f512369a69fe899af697ba94370c3dbae12
+SHA256: 0ee9544f8acc460f3052ee10ac6b593ea81482b99bb82b487559431931630bd9
 
 Package: samtongzi.xcon
 Name: xCon
